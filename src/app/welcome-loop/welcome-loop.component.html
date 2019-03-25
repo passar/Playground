@@ -1,0 +1,16 @@
+<article class="col-md-8 offset-md-2">
+    <h2>Welcome Loop</h2>
+    <div class="row">
+      <article class="card-group">
+        <div class="card" *ngFor="let person of names">
+          <img [src]="person.image" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title"> My name is: {{ person.name }}</h5>
+            <p class="card-text"><strong>What do you do?</strong> <br> {{ person.description }}</p>
+            <p class="card-text"><strong>How old are you?</strong> <br> {{ person.age }}</p>
+            <p class="card-text"><button class="btn btn-primary" (click)="welcomePerson(person.name)">Welcome</button></p>
+          </div>
+        </div>
+      </article>
+    </div>
+</article>
