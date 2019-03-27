@@ -1,3 +1,9 @@
+# Flyttbarhet
+Fick kompletera med att installera följande.
+´´´
+npm install --save-dev @angular-devkit/build-angular
+´´´
+
 # Playground
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
